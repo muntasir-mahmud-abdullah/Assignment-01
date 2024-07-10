@@ -13,7 +13,9 @@ p {color: #0D1321;font-size: 16px;}
 .display_flex {display: flex;}
 .justify_center{justify-content: center;}
 .text_center {text-align: center;}
-
+.btn-primary a{
+    text-decoration: none;color: #fff;
+}
 .btn-primary,.header_btn {
     color:white;
     background-color: #0D1321;
@@ -72,6 +74,7 @@ p {color: #0D1321;font-size: 16px;}
 .text-primary {
     font-size: 18px;
 }
+
 /* Why me styles    */
 
 .why_me_container {
@@ -87,6 +90,7 @@ p {color: #0D1321;font-size: 16px;}
     font-size: 32px;
     font-weight: 800;
     margin-top: 80px;
+    margin-bottom: 24px;
 }
 .why_text {
     font-size: 16px;
@@ -165,6 +169,9 @@ p {color: #0D1321;font-size: 16px;}
 .html_link a{
     color: #0D1321;
 }
+.html_text {
+    text-align: left;
+}
 
 /* support styles */
 
@@ -178,6 +185,8 @@ p {color: #0D1321;font-size: 16px;}
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    opacity:1;
+    
    
 }
 
@@ -196,7 +205,7 @@ flex-direction: column;
 
 }
 .support_content p{
-    color: #fff;
+    color: #c0c3ca;
     margin-bottom: 24px;
 }
 .feedback form {
