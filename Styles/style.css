@@ -14,7 +14,7 @@ p {color: #0D1321;font-size: 16px;}
 .justify_center{justify-content: center;}
 .text_center {text-align: center;}
 
-.btn-primary {
+.btn-primary,.header_btn {
     color:white;
     background-color: #0D1321;
     font-size: 20px;
@@ -27,6 +27,26 @@ p {color: #0D1321;font-size: 16px;}
 }
 
 .btn-primary:hover {
+    color: #645959;
+    background-color: #f45b5b;
+    transition: .2s;
+}
+/* header styles */
+.header_content{
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_title h1{
+    font-size: 24px;
+}
+.header_btn {
+    color: #0D1321;
+     background-color: #fff;
+     border:1px solid #0D1321 ;
+}
+.header_btn:hover {
     color: #645959;
     background-color: #f45b5b;
     transition: .2s;
